@@ -1,0 +1,43 @@
+<%- include('layout', { 
+    title: 'Currency Converter', 
+    content: `
+        <div class="container">
+            <h1 class="title">Currency Conversion</h1>
+        <form>
+            <input type="text" id="amount" placeholder="Amount">
+
+            <div class="dropdown-with-flag">
+                <img id="from-flag" class="currency-flag" alt="Selected currency flag">
+                <select name="" id="from"></select>
+            </div>
+
+            <button type="button" id="switch-button" class="switch-button" aria-label="Switch currencies">⇄</button>
+
+            <div class="dropdown-with-flag">
+                <img id="to-flag" class="currency-flag" alt="Selected currency flag">
+                <select name="" id="to"></select>
+            </div>
+
+            <input type="submit" value="Convert">
+        </form>
+
+        <div id="error-container">
+            <p id="error-message" class="error-message"></p>
+        </div>
+
+        <div class="results">
+            <div id="result"></div>
+            <button id="resetButton">&#10227; Reset</button>
+        </div>
+
+        <div class="tables-container">
+            <div id="tableFromTo" class="conversion-table"></div>
+            <div id="tableToFrom" class="conversion-table"></div>
+        </div>
+    </div>
+            
+            
+        </div>
+        <script src="/js/script.js"></script>
+    ` 
+}) %>

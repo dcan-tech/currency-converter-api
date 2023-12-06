@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/flag-style.css">
+    <title><%= title %></title>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header-box">
+        <div class="header-main">
+            <a class="nav-link <%= currentPage === 'home' ? 'active' : '' %>" href="/">Home</a>
+            <a class="nav-link <%= currentPage === 'currency-converter' ? 'active' : '' %>" href="/currency-converter">Currency Converter</a>
+            <a class="nav-link <%= currentPage === 'currency-charts' ? 'active' : '' %>" href="/currency-charts">Currency Chart</a>
+        </div>
+        <div class="auth-links">
+            <div class="sign-in">Sign In</div>
+            <div class="register">Register</div>
+        </div>
+    </div>
+
+    <!-- Placeholder for Page-Specific Content -->
+    <div id="content-placeholder">
+        <%- content %>
+    </div>
+
+    <!-- Footer (if any) -->
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+</body>
+</html>
+

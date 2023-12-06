@@ -1,0 +1,41 @@
+<%- include('layout', { 
+    title: 'Currency Charts', 
+    content: `
+        <div class="container">
+            <h1 class="title">Currency Chart</h1>
+        <form class="chart-form">
+            
+            <div class="dropdown-with-flag">
+                <img id="from-flag" class="currency-flag" alt="Selected currency flag">
+                <select name="" id="from"></select>
+                </div>
+
+            <button type="button" id="switch-button" class="switch-button" aria-label="Switch currencies">⇄</button>
+
+                <div class="dropdown-with-flag">
+                <img id="to-flag" class="currency-flag" alt="Selected currency flag">
+                <select name="" id="to"></select>
+                </div>
+             
+                <div class="submit-button-container">
+                    <input type="submit" value="Generate Chart">
+                </div>
+        </form>
+
+        <div id="error-container">
+            <p id="error-message" class="error-message"></p>
+        </div>
+
+       
+
+        <div id="chart-results" class="chart-results">
+            <button id="resetButton">&#10227; Reset</button>
+            <table>
+                <tbody id="chart-data">
+                    <!-- Data will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+        <script src="/js/chart-script.js"></script>
+    ` 
+}) %>

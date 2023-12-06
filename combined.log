@@ -1,0 +1,404 @@
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"warn","message":"404 - Not Found - /index.html - GET - ::1"}
+{"level":"info","message":"GET /index.html 404 1419 - 4.445 ms"}
+{"level":"warn","message":"404 - Not Found - /index.html - GET - ::1"}
+{"level":"info","message":"GET /index.html 404 473 - 3.988 ms"}
+{"level":"warn","message":"404 - Not Found - /css/styles.css - GET - ::1"}
+{"level":"info","message":"GET /css/styles.css 404 473 - 1.065 ms"}
+{"level":"info","message":"GET / 500 1541 - 0.828 ms"}
+{"level":"info","message":"GET / 500 1541 - 0.854 ms"}
+{"level":"info","message":"GET / 500 1541 - 0.613 ms"}
+{"level":"warn","message":"404 - Not Found - /index.html - GET - ::1"}
+{"level":"info","message":"GET /index.html 404 473 - 0.792 ms"}
+{"level":"warn","message":"404 - Not Found - /index.html - GET - ::1"}
+{"level":"info","message":"GET /index.html 404 473 - 0.882 ms"}
+{"level":"warn","message":"404 - Not Found - /css/styles.css - GET - ::1"}
+{"level":"info","message":"GET /css/styles.css 404 473 - 0.846 ms"}
+{"level":"info","message":"GET / 500 1541 - 0.783 ms"}
+{"level":"info","message":"GET / 500 1893 - 2.029 ms"}
+{"level":"info","message":"GET / 200 2176 - 1.085 ms"}
+{"level":"warn","message":"404 - Not Found - /css/styles.css - GET - ::1"}
+{"level":"info","message":"GET /css/styles.css 404 473 - 0.642 ms"}
+{"level":"warn","message":"404 - Not Found - /css/flag-style.css - GET - ::1"}
+{"level":"info","message":"GET /css/flag-style.css 404 473 - 0.637 ms"}
+{"level":"warn","message":"404 - Not Found - /js/animation.js - GET - ::1"}
+{"level":"info","message":"GET /js/animation.js 404 473 - 0.798 ms"}
+{"level":"info","message":"GET / 200 2176 - 1.106 ms"}
+{"level":"warn","message":"404 - Not Found - /js/animation.js - GET - ::1"}
+{"level":"info","message":"GET /js/animation.js 404 473 - 0.781 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET / 200 2199 - 6.321 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET / 200 2199 - 6.835 ms"}
+{"level":"info","message":"GET / 500 1526 - 1.394 ms"}
+{"level":"info","message":"GET / 200 1737 - 1.456 ms"}
+{"level":"info","message":"GET /currency-converter 200 2377 - 1.348 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.466 ms"}
+{"level":"info","message":"GET / 200 1734 - 1.414 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 1.173 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET / 304 - - 6.760 ms"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 1.581 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 5.978 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 200 2574 - 635.579 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 414.313 ms"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 4.695 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 292.451 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 7.195 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 302.187 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.192 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 676.076 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.140 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 299.189 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=CAD 200 2618 - 515.292 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 5.886 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=EUR 200 2615 - 698.305 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.741 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=CAD 304 - - 301.188 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=CAD 304 - - 248.606 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.401 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.236 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 5.892 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 7.307 ms"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 1.629 ms"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 0.855 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.590 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=CAD 304 - - 332.618 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.297 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 331.797 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.264 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=CNY 200 2532 - 304.529 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 7.120 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 597.922 ms"}
+{"level":"info","message":"GET / 304 - - 1.533 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 1.033 ms"}
+{"level":"info","message":"GET / 304 - - 0.809 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.745 ms"}
+{"level":"info","message":"GET / 304 - - 0.789 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.869 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=CLP 200 2638 - 247.992 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.067 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 388.472 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.187 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.204 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 404.046 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=EUR 304 - - 205.607 ms"}
+{"level":"info","message":"GET / 304 - - 1.404 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 1.013 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.083 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=CLP 304 - - 377.024 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=EUR 304 - - 198.587 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.662 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 371.806 ms"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 1.409 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 246.039 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.378 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 380.568 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.293 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=JPY 200 2556 - 294.654 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 7.516 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=INR 200 2547 - 385.202 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 6.016 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 301.046 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 286.006 ms"}
+{"level":"info","message":"GET / 304 - - 1.488 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"warn","message":"404 - Not Found - /index.html - GET - ::1"}
+{"level":"info","message":"GET /index.html 404 473 - 6.803 ms"}
+{"level":"warn","message":"404 - Not Found - /index.html - GET - ::1"}
+{"level":"info","message":"GET /index.html 404 473 - 1.115 ms"}
+{"level":"info","message":"GET / 304 - - 2.478 ms"}
+{"level":"info","message":"GET /currency-converter 200 2374 - 1.156 ms"}
+{"level":"warn","message":"404 - Not Found - /currency-chart - GET - ::1"}
+{"level":"info","message":"GET /currency-chart 404 473 - 0.955 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"warn","message":"404 - Not Found - /currency-chart - GET - ::1"}
+{"level":"info","message":"GET /currency-chart 404 473 - 5.975 ms"}
+{"level":"info","message":"GET / 304 - - 1.583 ms"}
+{"level":"warn","message":"404 - Not Found - /currency-chart - GET - ::1"}
+{"level":"info","message":"GET /currency-chart 404 473 - 1.053 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"warn","message":"404 - Not Found - /currency-chart - GET - ::1"}
+{"level":"info","message":"GET /currency-chart 404 473 - 5.840 ms"}
+{"level":"info","message":"GET /currency-charts 200 2268 - 1.648 ms"}
+{"level":"info","message":"GET /currency-charts 200 2262 - 1.535 ms"}
+{"level":"info","message":"GET /currency-charts 200 2262 - 0.906 ms"}
+{"level":"info","message":"GET /currency-charts 200 2262 - 0.721 ms"}
+{"level":"info","message":"GET /currency-charts 200 2386 - 1.120 ms"}
+{"level":"info","message":"GET /currency-charts 200 2386 - 1.010 ms"}
+{"level":"info","message":"GET /currency-charts 200 2451 - 1.356 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 1.062 ms"}
+{"level":"warn","message":"404 - Not Found - /currency-chart - GET - ::1"}
+{"level":"info","message":"GET /currency-chart 404 473 - 1.149 ms"}
+{"level":"warn","message":"404 - Not Found - /currency-chart - GET - ::1"}
+{"level":"info","message":"GET /currency-chart 404 473 - 0.866 ms"}
+{"level":"warn","message":"404 - Not Found - /currency-chart - GET - ::1"}
+{"level":"info","message":"GET /currency-chart 404 473 - 0.965 ms"}
+{"level":"info","message":"GET / 200 1735 - 0.958 ms"}
+{"level":"info","message":"GET /currency-charts 200 2421 - 0.963 ms"}
+{"level":"info","message":"GET /currency-charts 200 2686 - 1.034 ms"}
+{"level":"info","message":"GET /currency-charts 200 2634 - 1.024 ms"}
+{"level":"info","message":"GET /currency-charts 200 2629 - 1.330 ms"}
+{"level":"info","message":"GET /currency-charts 200 2635 - 0.921 ms"}
+{"level":"info","message":"GET /currency-converter 200 2375 - 0.865 ms"}
+{"level":"info","message":"GET /currency-charts 200 2631 - 0.882 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 1.135 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2631 - 6.298 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 1.305 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.950 ms"}
+{"level":"info","message":"GET /currency-converter 200 2375 - 1.223 ms"}
+{"level":"info","message":"GET /currency-charts 200 2637 - 0.994 ms"}
+{"level":"info","message":"GET /currency-charts 200 2703 - 1.127 ms"}
+{"level":"info","message":"GET /currency-charts 200 2651 - 0.936 ms"}
+{"level":"info","message":"GET /currency-charts 200 2653 - 0.824 ms"}
+{"level":"info","message":"GET /currency-charts 200 2651 - 1.084 ms"}
+{"level":"info","message":"GET /currency-charts 200 2651 - 0.890 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.710 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 200 2579 - 662.038 ms"}
+{"level":"info","message":"GET /currency-converter 200 2375 - 1.205 ms"}
+{"level":"info","message":"GET /currency-charts 200 2715 - 0.952 ms"}
+{"level":"info","message":"GET /currency-charts 200 2694 - 1.336 ms"}
+{"level":"info","message":"GET /currency-charts 200 2689 - 0.829 ms"}
+{"level":"info","message":"GET /currency-charts 200 2689 - 0.807 ms"}
+{"level":"info","message":"GET /currency-charts 200 2689 - 1.397 ms"}
+{"level":"info","message":"GET /currency-charts 200 2689 - 0.815 ms"}
+{"level":"info","message":"GET /currency-charts 200 2689 - 0.849 ms"}
+{"level":"info","message":"GET /currency-charts 200 2684 - 0.994 ms"}
+{"level":"info","message":"GET /currency-charts 200 2705 - 0.999 ms"}
+{"level":"info","message":"GET /currency-charts 200 2705 - 1.029 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 0.790 ms"}
+{"level":"info","message":"GET /currency-charts 200 2705 - 0.616 ms"}
+{"level":"info","message":"GET /currency-charts 200 2705 - 0.631 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 0.665 ms"}
+{"level":"info","message":"GET /currency-charts 200 2705 - 0.593 ms"}
+{"level":"info","message":"GET /currency-charts 200 2705 - 0.647 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.612 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 0.757 ms"}
+{"level":"info","message":"GET /currency-charts 200 2705 - 0.810 ms"}
+{"level":"info","message":"GET /currency-charts 200 2705 - 0.672 ms"}
+{"level":"info","message":"GET /currency-charts 200 2705 - 0.984 ms"}
+{"level":"info","message":"GET /currency-charts 200 2678 - 0.924 ms"}
+{"level":"info","message":"GET /currency-charts 200 2678 - 1.307 ms"}
+{"level":"info","message":"GET /currency-charts 200 2678 - 0.581 ms"}
+{"level":"info","message":"GET /currency-charts 200 2678 - 0.749 ms"}
+{"level":"info","message":"GET /currency-charts 200 2678 - 0.661 ms"}
+{"level":"info","message":"GET /currency-charts 200 2678 - 0.663 ms"}
+{"level":"info","message":"GET /currency-charts 200 2669 - 0.885 ms"}
+{"level":"info","message":"GET /currency-charts 200 2669 - 0.891 ms"}
+{"level":"info","message":"GET /currency-charts 200 2669 - 0.612 ms"}
+{"level":"info","message":"GET /currency-charts 200 2669 - 0.744 ms"}
+{"level":"info","message":"GET /currency-charts 200 2669 - 0.609 ms"}
+{"level":"info","message":"GET /currency-charts 200 2669 - 0.772 ms"}
+{"level":"info","message":"GET /currency-charts 200 2669 - 0.781 ms"}
+{"level":"info","message":"GET /currency-charts 200 2669 - 0.685 ms"}
+{"level":"info","message":"GET /currency-charts 200 2669 - 0.633 ms"}
+{"level":"info","message":"GET /currency-charts 200 2669 - 0.608 ms"}
+{"level":"info","message":"GET /currency-charts 200 2669 - 1.060 ms"}
+{"level":"info","message":"GET /currency-charts 200 2669 - 0.710 ms"}
+{"level":"info","message":"GET /currency-charts 200 2729 - 1.069 ms"}
+{"level":"info","message":"GET /currency-charts 200 2748 - 1.027 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 1.027 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 1.271 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.602 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.814 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.592 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.623 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.940 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.615 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.615 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.702 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.648 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.706 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.666 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.588 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.755 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 0.806 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.634 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 0.653 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.638 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 0.672 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.631 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.623 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.660 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.600 ms"}
+{"level":"info","message":"GET /currency-charts 200 2575 - 0.968 ms"}
+{"level":"info","message":"GET /currency-charts 200 2575 - 0.723 ms"}
+{"level":"info","message":"GET /currency-charts 200 2575 - 0.668 ms"}
+{"level":"info","message":"GET /currency-charts 200 2575 - 0.571 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.582 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.596 ms"}
+{"level":"info","message":"GET /currency-charts 200 2690 - 0.855 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.708 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 1.083 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.605 ms"}
+{"level":"info","message":"GET /currency-charts 200 2682 - 0.658 ms"}
+{"level":"info","message":"GET /currency-charts 200 2767 - 0.935 ms"}
+{"level":"info","message":"GET /currency-charts 200 2767 - 0.803 ms"}
+{"level":"info","message":"GET /currency-charts 200 2767 - 0.599 ms"}
+{"level":"info","message":"GET /currency-charts 200 2767 - 0.567 ms"}
+{"level":"info","message":"GET /currency-charts 200 2767 - 0.687 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 0.664 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.603 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 0.679 ms"}
+{"level":"info","message":"GET /currency-charts 200 2767 - 0.637 ms"}
+{"level":"info","message":"GET /currency-charts 200 2767 - 0.652 ms"}
+{"level":"info","message":"GET /currency-charts 200 2767 - 0.721 ms"}
+{"level":"info","message":"GET /currency-charts 200 2767 - 0.596 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.899 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 0.688 ms"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 0.795 ms"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 0.726 ms"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 1.044 ms"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 0.703 ms"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 0.882 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 6.549 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 6.431 ms"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 1.263 ms"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 1.234 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 533.345 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 7.030 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 651.124 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 6.656 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 1196.483 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 6.722 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 300.722 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 6.296 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 566.651 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 6.810 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 496.984 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 247.670 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 6.957 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 300.520 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 658.014 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 244.130 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 193.784 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 181.758 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 185.437 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 195.944 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 193.563 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 521.943 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 193.557 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 298.254 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 523.864 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 6.507 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 6.135 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 695.118 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 6.495 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 561.379 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 6.533 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 697.052 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 7.764 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 792.370 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2633 - 6.935 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 420.616 ms"}
+{"level":"info","message":"GET /currency-charts 200 2377 - 1.381 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 618.146 ms"}
+{"level":"info","message":"GET /currency-charts 200 2377 - 0.889 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 850.900 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=EUR 200 2628 - 1287.308 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2377 - 6.448 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 521.470 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 1.583 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 1072.176 ms"}
+{"level":"info","message":"GET / 304 - - 1.031 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.875 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 0.952 ms"}
+{"level":"info","message":"GET / 304 - - 0.871 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.777 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 559.295 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 304 - - 6.635 ms"}
+{"level":"info","message":"GET /currency-charts 200 2377 - 1.200 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 1166.116 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2377 - 7.419 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=CLP 200 2628 - 609.454 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=ZAR 200 2516 - 510.609 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=AUD 200 2600 - 536.944 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 509.917 ms"}
+{"level":"info","message":"GET /currency-charts 200 2377 - 1.279 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 1017.370 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2377 - 6.974 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 596.252 ms"}
+{"level":"info","message":"GET /currency-charts 200 2377 - 1.459 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 654.971 ms"}
+{"level":"info","message":"GET /currency-charts 200 2377 - 0.809 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 258.061 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2377 - 6.909 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 566.428 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /api/currency-converter?base=INR 200 2541 - 576.217 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2377 - 6.112 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 605.090 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 260.466 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 515.704 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=GBP 200 2607 - 526.060 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2377 - 6.359 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 1.575 ms"}
+{"level":"info","message":"GET / 304 - - 0.880 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.839 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 436.207 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-converter 200 2375 - 5.821 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 425.511 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 1.537 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 249.324 ms"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"Server running at http://localhost:3000"}
+{"level":"info","message":"GET /currency-charts 200 2377 - 5.893 ms"}
+{"level":"info","message":"GET / 304 - - 1.766 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 1.318 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 0.921 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.956 ms"}
+{"level":"info","message":"GET /api/currency-converter?base=USD 304 - - 610.018 ms"}
+{"level":"info","message":"GET / 304 - - 0.982 ms"}
+{"level":"info","message":"GET /currency-converter 304 - - 0.742 ms"}
+{"level":"info","message":"GET /currency-charts 304 - - 0.714 ms"}

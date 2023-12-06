@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { /* Earth-tone gradient colors */
+    min-height: 100vh;
+    background: linear-gradient(to right, #B4A899, #937A6D); 
+}
+
+/* Header Styles*/
+.header-box {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+}
+
+.header-main {
+  display: inline-block;
+  gap: 70px;
+}
+
+/* Navigation Links */
+.header-main .nav-link {
+  display: inline-block;
+  margin: 0 35px;
+  color: #fcfafa;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  transform: scale(1.1); 
+}
+
+/* Active Link Style */
+.nav-link.active {
+  color: #ffffff; 
+  background-color: #8B4513; 
+  border-radius: 5px;
+}
+
+/* Sign In and Register */
+.auth-links {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  display: flex;
+}
+
+.sign-in {
+  color: #fcfafa;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 2px 5px;
+}
+
+.register { 
+  border: 1px solid #454545; 
+  padding: 2px 5px;
+  margin-left: 10px; 
+  border-radius: 5px; 
+  background-color: #8B4513; 
+  color: #fcfafa;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* main container */
+.container {
+    width: 850px; 
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #8B4513; 
+    margin-top: 170px;
+    box-sizing: border-box; 
+    border-radius: 15px;
+    /* Flexbox layout for internal elements */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+}
+
+h1.title {
+    color: #fcfafa; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* Style for form elements */
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows items to wrap as needed */
+}
+
+/* Style for amount input and dropdowns */
+input, select {
+    border: 1px solid #87725B;
+    padding: 8px; /* Adjust padding as needed */
+    margin-bottom: 10px; /* Spacing between form elements */
+    min-width: 200px; /* Minimum width for better visibility */
+}
+
+#amount {
+    flex: 1;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-right: 4px;
+    max-width: 200px;
+}
+
+form select {
+    flex: 1; /* Take available space, adjust if necessary */
+    padding-left: 8px; /* Adjust padding to not obscure content */
+    width: auto; /* Adjust width as needed */
+    /* Add minimum width if dropdowns are too small */
+    min-width: 200px; /* Example minimum width */
+}
+
+/* Submit Button Style */
+form input[type="submit"] {
+    background: #D2B48C;  /* Existing tan background */
+    color: #5f5853; /* Existing dark text color */
+    cursor: pointer; /* Keeps the cursor as pointer */
+    padding: 12px 20px; /* Increased padding for a larger button */
+    font-size: 16px; /* Larger font size for better visibility */
+    border: 2px solid #87725B; /* Adding a border for definition */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.3); /* Adding a shadow for depth */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+form input[type="submit"]:hover {
+    background-color: #E0C2A2; /* Lighter shade for hover */
+    color: #403B37; /* Slightly darker text on hover */
+}
+
+.chart-form {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Align items vertically */
+  gap: 10px; /* Spacing between items */
+}
+
+
+.chart-form .submit-button-container {
+  width: 100%; /* Force the container to take full width */
+  display: flex; /* Apply Flexbox */
+  justify-content: center; /* Center the button horizontally */
+}
+
+
+
+/* Result Section */
+.results {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #F0E4D1; 
+    border-radius: 5px; 
+    text-align: center; /* Center the text */
+    display: none;
+    overflow: hidden; /* Hide overflow content */
+    max-height: 0; /* Start with 0 height */
+    font-size: 20px;
+  }
+  
+  #result {
+    color: #454545; /* Adjust text color as needed */
+    /* Additional text styling as required */
+  }
+  
+  .results.visible {
+    max-height: 400px;
+    display: block;
+}
+
+#resetButton {
+    cursor: pointer;
+}
+
+/* Error Section */
+#error-container {
+  min-height: 20px; 
+  margin-top: 10px; 
+}
+
+.error-message {
+  
+  display: none;
+}
+
+.error-message.visible {
+  display: block;
+}
+
+/* Conversion Table Styles */
+.tables-container {
+    display: flex;
+    justify-content: space-between; /* Center the tables horizontally */
+    gap: 5px; /* Adjust spacing between tables */
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .conversion-table {
+    margin-right: 75px; /* Add 20px of margin to the right side of each table */
+    margin-left: 75px; /* Add 20px of margin to the left side of each table */
+  }
+
+  .conversion-table table {
+    width: 100%; /* Adjust as needed */
+    margin: 0 auto; /* Center the table within its container */
+  }
+
+  .conversion-table h3 {
+    text-align: center; /* Center the h3 heading text */
+  }
+  
+  .conversion-table th,
+  .conversion-table td:first-child {
+    text-align: center; /* Center text in table headers and first cells */
+  }
+  
+  .conversion-table td:nth-child(2) {
+    text-align: left; /* Align second cell's content to the left */
+  }
+  
+  /* Align the right-side table to the left edge */
+  #tableToFrom {
+    text-align: left;
+  }
+
+  .conversion-table td {
+    padding-left: 10px; /* Add 10px of padding to the left side of each table cell */
+     /* Add 10px of padding to the right side of each table cell */
+  }
+  
+.dropdown-with-flag, #amount, #switch-button {
+    display: flex;
+    align-items: center; /* Vertically align the dropdown and flag */
+    
+}
+
+#switch-button {
+    background-color: #D2B48C; /* Example color */
+    border: none;
+    padding: 5px 10px;
+    margin: 0 10px; /* Spacing around the button */
+    margin-bottom: 8px;
+    cursor: pointer;
+    /* Other specific styles for the switch button */
+}
+
+/* Style for currency flag */
+.currency-flag {
+    width: 24px; /* Adjust width as needed */
+    height: 24px; /* Adjust height as needed */
+    margin-right: 4px; /* Spacing between dropdown and flag */
+    margin-left: 4px;
+    margin-bottom: 6px;
+   
+}
+
+/* Styles for Historical Chart */
+.chart-results {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.chart-row {
+  background-color: #F0E4D1; 
+  color: #454545; 
+  padding: 10px;
+}
+
+.chart-header {
+  background-color: #8B4513; 
+  color: #fcfafa; 
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+  
+
+  
+ 
+  
+
+
