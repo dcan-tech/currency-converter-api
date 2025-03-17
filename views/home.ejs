@@ -1,22 +1,19 @@
-<%- include('layout', { 
-  title: 'Home Page', 
-  content: `
-      <section class="content-section">
-          <h1>Welcome to the Home Page</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p>Nullam vitae lectus vel elit volutpat hendrerit.</p>
-          <p>Proin condimentum eros id ex feugiat, non faucibus justo bibendum.</p>
-          <p>Curabitur vehicula dolor eget elit dignissim, vel dignissim neque varius.</p>
+<%- include('layout', {
+title: 'Home Page',
+content: `
+<section class="content-section">
+<h1>Simple Currency Converter</h1>
+<p>This project is a learning-based implementation of a multi-page currency converter.</p>
+<p>It uses <strong>Node.js</strong> and <strong>Express</strong> on the backend, with <strong>EJS</strong> templating for rendering pages.</p>
+<p>Exchange rates are fetched from an external API, while historical data is currently hardcoded for demonstration purposes.</p>
+<p>Built following the <strong>MVC (Model-View-Controller)</strong> architecture, this project is structured for clarity and maintainability.</p>
 
-          <!-- Container for the flag animation -->
-          <div id="flag-container">
-              <!-- You can place images or other content here specific to the home page -->
-          </div>
-      </section>
+<!-- Container for the flag animation -->
+<div id="flag-container">
+<!-- Placeholder for flag animation (to be refined in future updates) -->
+</div>
+</section>
 
-     
-
-      <script src="/js/animation.js"></script>
-  ` 
+<script src="/js/animation.js"></script>
+`
 }) %>
-
