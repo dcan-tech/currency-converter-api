@@ -1,3 +1,14 @@
+# Ignore Node.js dependencies
 node_modules/
+
+# Ignore environment variables
 .env
 
+# Ignore logs
+*.log
+combined.log
+
+# Ignore IntelliJ project files
+.idea/
+
+# Other types of file/folders to ignore? Research
