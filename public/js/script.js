@@ -64,7 +64,8 @@ const calculateExchange = (amount, exchangeRate) => {
 const updateFlag = (selectElement, flagElementId) => {
     const selectedCurrency = selectElement.value;
     const flagElement = document.getElementById(flagElementId);
-    flagElement.src = `../flags/${selectedCurrency}.svg`; 
+    flagElement.src = `/flags/${selectedCurrency.toUpperCase()}.svg`;
+
 };
 
 const handleCurrencyChange = (selectElement, symbolElement) => {

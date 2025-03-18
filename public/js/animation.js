@@ -1,19 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
     const flagContainer = document.getElementById('flag-container');
     const flags = ['AUD', 'CAD', 'CLP', 'CNY', 'EUR', 'GBP', 'INR', 'JPY', 'RUB', 'USD', 'ZAR'];
-    
 
     function getRandomFlag(flags) {
         const randomIndex = Math.floor(Math.random() * flags.length);
         return flags[randomIndex];
     }
-    
+
     function createFlagImage() {
         console.log("Creating Flag Images");
-        let selectedFlags = []; // Array to keep track of flags
-        const padding = 60; // Padding around the flags
-        const baseDelay = 1000; // Base delay of 1 second
-    
+        let selectedFlags = []; // Track selected flags
+        const padding = 60; // Space around flags
+        const baseDelay = 1000; // Base delay (1 second per flag)
+
         // Generate three unique flags
         while (selectedFlags.length < 3) {
             const flag = getRandomFlag(flags);
@@ -21,17 +20,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 selectedFlags.push(flag);
             }
         }
-    
-        // Display each flag with a standard delay between them
+
+        // Display each flag with a staggered delay
         selectedFlags.forEach((flag, i) => {
             setTimeout(() => {
-                const flagImg = document.createElement('img');
-                flagImg.src = `/flags/${flag}.svg`; // Path to flag images
+                const flagImg = new Image(); // Preload flag before adding
+                flagImg.src = `/flags/${flag}.svg`;
                 flagImg.alt = `${flag} Flag`;
                 flagImg.className = 'flag-image';
-    
-                flagImg.onload = function() {
-                    // Set position after image has loaded
+
+                flagImg.onload = function () {
+                    // Ensure flag is only added after fully loading
                     const maxX = Math.max(0, flagContainer.clientWidth - flagImg.width - padding * 2);
                     const maxY = Math.max(0, flagContainer.clientHeight - flagImg.height - padding * 2);
 
@@ -39,32 +38,31 @@ document.addEventListener("DOMContentLoaded", function () {
                     const randomY = Math.random() * maxY + padding;
                     console.log(`Displaying flag ${flag} at coordinates (${randomX.toFixed(2)}, ${randomY.toFixed(2)})`);
 
-    
                     this.style.left = `${randomX}px`;
                     this.style.top = `${randomY}px`;
-    
-                    // Append and animate the flag image
-                    flagContainer.appendChild(this); // Ensure 'flagContainer' is the correct container
+
+                    flagContainer.appendChild(this); // Add to DOM after loading
                     this.classList.add('fade-in');
 
-            setTimeout(() => {
-                this.classList.remove('fade-in');
-                this.classList.add('fade-out');
+                    setTimeout(() => {
+                        this.classList.remove('fade-in');
+                        this.classList.add('fade-out');
 
-    // Wait for the fade-out animation to complete before removing the flag
-                this.addEventListener('animationend', () => {
-                flagContainer.removeChild(this);
-            });
-        }, 2000); // Flag display duration
-            };
-            }, i * baseDelay); // Incremental delay for each flag
+                        this.addEventListener('animationend', () => {
+                            flagContainer.removeChild(this);
+                        });
+                    }, 2000); // Display duration before fade-out
+                };
+            }, i * baseDelay); // Staggered appearance for each flag
         });
-    
-        // Repeat the process with new flags
-        setTimeout(createFlagImage, 5000); // Timing for the next iteration of flag creation
+
+        // Schedule next round of flags
+        setTimeout(() => {
+            requestAnimationFrame(createFlagImage);
+        }, 5000);
     }
-    
+
     // Start the animation
-    createFlagImage();
-    
-});
+    createFlagImage(); // run once on page load
+
+}); // eof
