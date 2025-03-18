@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a simple currency converter that evolves from a previous version which used HTML and hardcoded values. The current iteration is a multi-page application built with Node.js and Express, utilizing EJS for templating. It follows the MVC (Model-View-Controller) architecture for organized structure, ease of maintenance, and expandability.
+This project is a simple currency converter that evolved from a previous version which used HTML and hardcoded values. The current iteration is a multi-page application built with Node.js and Express, utilizing EJS for templating. It follows the MVC (Model-View-Controller) architecture for organized structure, ease of maintenance, and expandability.
 
 The application features live currency exchange data fetched through an API. Additionally, it includes functionality to display historical currency exchange information. As of now, the historical data is hardcoded, representing accurate rates as of 12/06/2022.
 
