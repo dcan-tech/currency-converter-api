@@ -7,6 +7,7 @@ node_modules/
 # Ignore logs
 *.log
 combined.log
+error.log
 
 # Ignore IntelliJ project files
 .idea/
