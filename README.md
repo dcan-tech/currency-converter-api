@@ -1,4 +1,4 @@
-# Simple Currency Converter
+# Full-Stack Currency Converter (App & API)
 
 ## Description
 
