@@ -18,3 +18,5 @@ The application features live currency exchange data fetched through an API. Add
 - Middleware integration for logging and HTTP security.
 
 **Note:** Does not contain an API key required for functionality.
+Here is a link to obtain a free key which will work for this code.
+[Free API Key] (https://www.exchangerate-api.com/)
